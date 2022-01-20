@@ -16,7 +16,6 @@ const UserSchema = new Schema({
     },
     Email: {
         type:String,
-        required: [true, 'Email field is required']
     }
 });
 
